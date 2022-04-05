@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+i, svg{
+    pointer-events: none;
+}
+
+.kick-pad, .snare-pad, .hihat-pad{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem 0.5rem;
+    cursor: pointer;
+}
+
+.kick-pad{
+    /* you can choose any color for your pads  */
+    background: rgb(127, 210, 243);
+}
+
+.snare-pad{
+    background: rgb(231, 110, 255);
+}
+
+.hihat-pad{
+    background: rgb(255, 171, 92);
+}
