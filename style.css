@@ -12,6 +12,8 @@ i, svg{
     pointer-events: none;
 }
 
+/* ---------------- */
+
 .kick-pad, .snare-pad, .hihat-pad{
     width: 5rem;
     height: 5rem;
@@ -49,6 +51,8 @@ i, svg{
     flex-direction: column;
     justify-content: center;
 }
+
+/* ----------------- */
 
 .hihat-track,
 .snare-track,
@@ -95,6 +99,8 @@ i, svg{
     cursor: pointer;
     margin-top: 5rem;
 }
+
+/* ------------------- */
 
 select{
     padding: 1rem;
